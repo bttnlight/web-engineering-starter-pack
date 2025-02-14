@@ -4,9 +4,17 @@ body {
   }
   
   .sender-column {
-    text-align: right;
+      text-align: right;
+    }
+
+  .date {
+      text-align: right;
   }
-  
+
+  .recipient {
+      font-style: italic;
+  }
+
   h1 {
     font-size: 1.5em;
   }
@@ -22,4 +30,18 @@ body {
   p, li, dd, dt, address {
     line-height: 1.5;
   }
+
+  a {
+    color: blue;
+    text-decoration: none;
+  }
   
+  .underline-dotted {
+      text-decoration: underline;
+      text-decoration-style: dotted;
+  }
+
+  .letter-header {
+    font-style: italic;
+    text-align: right;
+}
